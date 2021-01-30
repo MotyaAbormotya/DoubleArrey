@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\ArreyDzXO\DoubleArray2\bin\Debug\DoubleArray2.exe.config
+C:\Users\User\source\repos\ArreyDzXO\DoubleArray2\bin\Debug\DoubleArray2.exe
+C:\Users\User\source\repos\ArreyDzXO\DoubleArray2\bin\Debug\DoubleArray2.pdb
+C:\Users\User\source\repos\ArreyDzXO\DoubleArray2\obj\Debug\DoubleArray2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ArreyDzXO\DoubleArray2\obj\Debug\DoubleArray2.exe
+C:\Users\User\source\repos\ArreyDzXO\DoubleArray2\obj\Debug\DoubleArray2.pdb
