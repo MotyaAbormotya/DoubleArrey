@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\bin\Debug\ArreyDzXO.exe.config
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\bin\Debug\ArreyDzXO.exe
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\bin\Debug\ArreyDzXO.pdb
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\obj\Debug\ArreyDzXO.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\obj\Debug\ArreyDzXO.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\obj\Debug\ArreyDzXO.exe
+C:\Users\User\source\repos\ArreyDzXO\ArreyDzXO\obj\Debug\ArreyDzXO.pdb
