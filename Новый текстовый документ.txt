@@ -1,0 +1,150 @@
+1.1
+string[,] array = new string[5, 5];
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (j <= i)
+                    {
+                        array[i, j] = "X";
+                    }
+                    else
+                    {
+                        array[i, j] = "0";
+                    }
+
+                }
+            }
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write(array[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+1.2
+string[,] array = new string[7, 7];
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (j >= i)
+                    {
+                        array[i, j] = "X";
+                    }
+                    else
+                    {
+                        array[i, j] = "0";
+                    }
+
+                }
+            }
+
+
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write(array[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+1.3
+string[,] array = new string[7, 7];
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (i <= array.GetLength(1) / 2 && j >= i && j <= array.GetLength(1) - i - 1 || i >= array.GetLength(1) / 2 && j <= i && j >= array.GetLength(1) - i - 1)
+                    {
+                        array[i, j] = "X";
+                    }
+                    else
+                    {
+                        array[i, j] = "0";
+                    }
+
+                }
+            }
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write(array[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+1.4
+string[,] array = new string[7, 7];
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (array.GetLength(1) / 2 <= j || i >= array.GetLength(0) / 2)
+                    {
+                        array[j, i] = "0";
+                    }
+                    else
+                    {
+                        array[j, i] = "X";
+                    }
+
+                }
+            }
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write(array[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+2
+int[,] array = new int[4, 4];
+            int resultJ = 1;
+            int resultI = 0;
+            Random random = new Random();
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    array[i, j] = random.Next(0, 15 + 1);
+                }
+            }
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write(array[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                resultJ *= array[i, 0];
+            }
+
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                resultI += array[1, j];
+            }
+
+
+            Console.Write(resultI + " " + resultJ);
+
+            Console.ReadKey();
